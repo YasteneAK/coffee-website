@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>coffee shop</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="images/logo.png" alt="" />
+      </a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#products">products</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+        <a href="#blogs">blogs</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
+
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box" class="fas fa-search"></label>
+      </div>
+
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="images/cart-item-1.png" alt="" />
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">5.99€/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="images/cart-item-2.png" alt="" />
+          <div class="content">
+            <h3>cart item 02</h3>
+            <div class="price">5.99€/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="images/cart-item-3.png" alt="" />
+          <div class="content">
+            <h3>cart item 03</h3>
+            <div class="price">5.99€/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="images/cart-item-4.png" alt="" />
+          <div class="content">
+            <h3>cart item 04</h3>
+            <div class="price">5.99€/-</div>
+          </div>
+        </div>
+        <a href="#" class="btn">checkout now</a>
+      </div>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>fresh coffee in the morning</h3>
+        <p>
+          Our expertly roasted beans and skilled baristas ensure that every sip
+          is a treat for the senses. Come by our café or order online to
+          experience the joy of a perfectly brewed coffee every morning.
+        </p>
+        <a href="#" class="btn">get yours now</a>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+      <h1 class="heading"><span>about</span> us</h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="images/about-img.jpeg" alt="" />
+        </div>
+
+        <div class="content">
+          <h3>what makes our coffee special?</h3>
+          <p>
+            we are passionate about coffee and dedicated to bringing our
+            customers the best possible cup every time. We source our beans from
+            the finest coffee-growing regions around the world and carefully
+            roast them to perfection. Our skilled baristas use only the highest
+            quality equipment to brew each cup to order, ensuring that every sip
+            is as fresh and flavorful as possible.
+          </p>
+          <p>
+            We also offer a wide variety of roasts and brews to suit every
+            taste, from classic drip coffee to creamy lattes and bold espressos.
+            Whether you're a seasoned coffee connoisseur or just looking for a
+            tasty pick-me-up, we have something for everyone
+          </p>
+          <a href="#" class="btn">learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- menu section starts  -->
+
+    <section class="menu" id="menu">
+      <h1 class="heading">our <span>menu</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/menu-1.png" alt="" />
+          <h3>Latte</h3>
+          <div class="price">5.99€ <span>7.99</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="images/menu-2.png" alt="" />
+          <h3>Americano</h3>
+          <div class="price">4.99€ <span>5.99</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="images/menu-3.png" alt="" />
+          <h3>Cappuccino</h3>
+          <div class="price">2.99€ <span>5.99</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="images/menu-4.png" alt="" />
+          <h3>Macchiato</h3>
+          <div class="price">4.25€ <span>7.75</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="images/menu-5.png" alt="" />
+          <h3>Mocha</h3>
+          <div class="price">8.00€ <span>10.99</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="images/menu-6.png" alt="" />
+          <h3>Espresso</h3>
+          <div class="price">3.00€ <span>5.99</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- menu section ends -->
+
+    <section class="products" id="products">
+      <h1 class="heading">our <span>products</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="images/product-1.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>Espresso Roast</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">6.99€ <span>€10.99</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="images/product-2.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>Morning Boost</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">15.99€ <span>20.99€</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="images/product-3.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>Dark & Bold</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">10.99€ <span>13.99€</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+      <h1 class="heading">customer's <span>review</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/quote-img.png" alt="" class="quote" />
+          <p>
+            As a coffee lover, I've tried a lot of different places, but
+            ALDENAIRE stands out for its consistently excellent coffee. The
+            beans are always fresh and the baristas are skilled at crafting the
+            perfect cup. It's my go-to spot for a quick caffeine fix.
+          </p>
+          <img src="images/pic-1.png" class="user" alt="" />
+          <h3>john</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/quote-img.png" alt="" class="quote" />
+          <p>
+            I've been a regular at ALDENAIRE for years, and I can honestly say
+            that the coffee is always top-notch. The beans are always fresh and
+            expertly roasted, and the baristas are friendly and knowledgeable.
+            It's my go-to place for a quality cup of coffee
+          </p>
+          <img src="images/pic-2.png" class="user" alt="" />
+          <h3>Sarah</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/quote-img.png" alt="" class="quote" />
+          <p>
+            I'm a huge fan of the coffee at ALDENAIRE. Whether I'm in the mood
+            for a latte, an espresso, or a simple drip coffee, I know I can
+            count on a consistently delicious and satisfying brew. Keep up the
+            great work!
+          </p>
+          <img src="images/pic-3.png" class="user" alt="" />
+          <h3>Dave</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>contact</span> us</h1>
+
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10075.573649136724!2d4.344013941216128!3d50.851658022522024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c3b5a2604c6d%3A0x859043b253883d43!2sPlace%20de%20Brouck%C3%A8re!5e0!3m2!1sfr!2sbe!4v1672055084280!5m2!1sfr!2sbe"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+
+        <form action="">
+          <h3>get in touch</h3>
+          <div class="inputBox">
+            <span class="fas fa-user"></span>
+            <input type="text" placeholder="name" />
+          </div>
+          <div class="inputBox">
+            <span class="fas fa-envelope"></span>
+            <input type="email" placeholder="email" />
+          </div>
+          <div class="inputBox">
+            <span class="fas fa-phone"></span>
+            <input type="number" placeholder="number" />
+          </div>
+          <input type="submit" value="contact now" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- blogs section starts  -->
+
+    <section class="blogs" id="blogs">
+      <h1 class="heading">our <span>blogs</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-1.jpeg" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">Coffee Junction</a>
+            <span>by admin / 4th jan, 2023</span>
+            <p>
+              At Coffee Junction, we're dedicated to helping you brew the
+              perfect cup of coffee at home. From equipment reviews to
+              step-by-step guides, we've got the knowledge and resources you
+              need to become a coffee pro..
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-2.jpeg" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">Coffee Spot </a>
+            <span>by admin / 19th nov, 2022</span>
+            <p>
+              The Coffee Spot is your go-to destination for all things coffee.
+              From the latest industry news and trends to delicious recipes and
+              brewing tips, we've got you covered.
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-3.jpeg" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">Daily Bean </a>
+            <span>by admin / 21st dec, 2022</span>
+            <p>
+              Join us at The Daily Bean for a daily dose of coffee culture and
+              inspiration. From origin stories to tasting notes, we celebrate
+              the rich history and diverse flavors of the world's favorite
+              drink.
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- blogs section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+      </div>
+
+      <div class="links">
+        <a href="#">home</a>
+        <a href="#">about</a>
+        <a href="#">menu</a>
+        <a href="#">products</a>
+        <a href="#">review</a>
+        <a href="#">contact</a>
+        <a href="#">blogs</a>
+      </div>
+
+      <div class="credit">
+        Owned by <span>ALDENAIRE</span> | all rights reserved
+      </div>
+    </section>
+
+    <!-- footer section ends -->
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
